@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url(/pic/man-looking-his-watch.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.nav{
+    width: 85%;
+}
+.nav ul li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 40em;
+    /* top: -10px; */
+    
+    
+
+
+    
+}
+li{
+    display: inline-block;
+    padding:  30px;
+    margin-right: 5px;
+    
+}
+ .nav li:hover{
+    color: blue;
+}
+
+
+
+.text{
+    color: whitesmoke;
+    position: relative;
+    top: 8em;
+    left: 20em;
+}
+.text h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    
+}
+.text p{
+    font-size: 20px;
+    margin-left: 6em; 
+}
+#log{
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    opacity: .5; 
+    cursor: pointer;
+    
+    
+}
+.secmain{
+    width: 100%;
+    height: 90vh;
+    margin: 5px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+
+}
+.men{
+    background-image: url(/watch/new-smartwatch-balancing-with-cliff.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    position: relative;
+    
+}
+.women{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.596)), url(/watch/watch-black-box-bow-tie-lie-white-windowsill.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    position: relative;
+    left: 15px;
+}
+.men h1{
+    text-transform: uppercase;
+    color:white;
+    position: relative;
+    top: 5px;
+    animation-name: new;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+}
+
+ @keyframes new{
+    0%{
+        top: 0px;
+        color:transparent;
+
+    }
+    100%{
+        top:190px ;
+        color: white;
+    }
+} 
+button{
+    padding: 15px ;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin: 20px 12em;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+button:hover{
+    background-color: green;
+}
+.men h1 {
+    position: relative;
+    top: 6em;
+    left: 10px;
+}
+.men button{
+    position: relative;
+    top: 15em;
+    right: 4em;
+}
+.women h1{
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 5px;
+    animation-name: new1;
+    animation-duration: 5s;
+    animation-iteration-count:10 ;
+}
+@keyframes new1{
+    0%{
+        top:0px;
+        color: transparent;
+    }
+    100%{
+        top: 190px;
+        color: white;
+    }
+}
+.women h1{
+    position: relative;
+    top: 6em;
+    left: 10px;
+}
+.women button{
+    position: relative;
+    top: 15em;
+    right: 18px;
+
+}
+.foot{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+h2{
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+}
+h3{
+    color: whitesmoke;
+    display: block;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+
+.mar{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.817),rgba(0, 0, 0, 0.817)),url(/watch/age-barros-rBPOfVqROzY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* .pic{
+    width: 100%;
+    height: 50%;
+    background-color: blue; */
+   
+/* } */
+/* .sec{
+    width: 100%;
+    height: 50%;
+    background-color: black; */
+/* } */
+/* .img{
+    margin-top: 3px;
+} */
+.mar h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    
+}
+.im{
+    position: relative;
+    top: 35px;
+}
+.mar h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
